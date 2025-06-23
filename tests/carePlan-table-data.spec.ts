@@ -11,7 +11,6 @@ test("Verify table data helper function", async ({ page }) => {
 
 // Test sử dụng hàm verifyTableDataForPatient với testPatient data  chỉ dùng cho test người mới thêm
 test("check thoong tin nguời dùng mới thêm", async ({ page }) => {
-  // Đăng nhập và điều hướng đến trang care plan
   await login(page);
   await page.locator(".flex.aspect-square").click();
   await page
